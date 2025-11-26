@@ -1,11 +1,11 @@
-This repository contains the implementation and experiments for our project:
+**This repository contains the implementation and experiments for our project:**
 
-“Automatic Generation of SDN Intents from Natural Language Commands Using LLMs”
-University of Luxembourg —  2025.
+**“Automatic Generation of SDN Intents from Natural Language Commands Using LLMs”
+University of Luxembourg —  2025.**
 
 The project investigates the reliability issues of Large Language Models (LLMs) in SDN automation and provides a verification-driven intent generation framework that tests LLM-generated rules in a Mininet sandbox before trusting or deploying them.
 
-🎯 Project Goal
+**🎯 Project Goal**
 
 LLMs can translate natural-language requests (e.g., “Block traffic from h1 to h2”) into SDN policies, but research shows that most generated configurations fail without verification due to hallucinations or topology inconsistencies.
 Our goal is to build a safe SDN intent pipeline that:
@@ -16,7 +16,7 @@ Verifies real network behavior
 Uses feedback to refine incorrect attempts
 Accepts only validated configurations
 
-🧩 System Architecture
+**🧩 System Architecture**
 
 Our architecture includes:
 
